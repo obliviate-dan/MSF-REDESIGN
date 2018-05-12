@@ -3,85 +3,76 @@
    margin: 0;
 }
 
-html, body, .capa{
-  height:100%;
-  overflow: auto;
-}
-
 body {
-   
-   background-attachment: fixed; 
-   font-family: "Circular Std Bold",Helvetica,Arial,sans-serif !important;
-   overflow-x: hidden;
-   background-color: #000;
+   font-family: "Circular Std Bold",Helvetica,Arial,sans-serif;
+   background: #222;
+   font-weight: 300;
 }
 
-
-.img-logo {
-   width: 200px;
-   height: 65px;
-   display: block;
-   background: url('../img/LOGO2.png') no-repeat;
-   color: transparent;
-   margin: 10px 0 20px 160px;
+.container {
+   width: 100%;
+   margin: 0 auto;
 }
 
-.nav-navbar {
-   background-color: #F4696F;
-   background-image: linear-gradient (90deg, rgba(244, 105, 111, .1), rgba(243, 89, 97, .4));
-   overflow: hidden;
+header {
+   background: #F4696F;
+   padding: 10px 0 20px;
 }
 
-.navbar-brand {
-   text-decoration: none;
+header::after {
+   content: '';
+   display: table;
+   clear: both;
+}
+
+.logo {
    float: left;
+   margin-left: 180px;
+   margin-right: 60px;
 }
 
 input {
-   height: 32px;
-   width: 350px;
-   border: 1.5px solid #fab7bb;
+   outline: none;
+   height: 40px;
+   width: 380px;
+   border: 2px solid #FFF;
    border-radius: 50px;
-   background: rgba(247, 136, 141, 0.100);
-   outline: none;
-   font-weight: 600;
+   margin-right: 40px;
+   background-color: rgba(250, 184, 187, 0.1);
+   font-weight: 400;
    font-size: 14px;
-   padding-left: 25px;
-   padding-top: 3px;
-   padding-bottom: 3px;
-   float: left;
-   margin-bottom: 20px;
-   margin-top: 32px;
-   margin-left: 40px;
-   margin-right: 60px;
+   padding-left: 30px;
    color: #FFF;
 }
 
-input::placeholder {
-   color: #fff;
-}
-
-.donate a {
-   text-decoration: none;
+::placeholder {
    color: #FFF;
-   font-weight: 550;
-   font-size: 16px;
-   margin-top: 42px;
-   margin-right: 25px;
-   float: left;
+   font-weight: 400;
 }
 
-.donate button {
-   background-color: #fff;
-   outline: none;
-   cursor: pointer;
+nav {
+   padding-top: 15px;
+}
+
+nav button {
+   height: 42px;
+   margin-left: 10px;
    border: none;
    border-radius: 50px;
-   font-weight: 700;
-   color: #F4696F;
-   font-size: 16px;
-   padding: 12px 35px;
-   margin-top: 32px;
-   float: left;
+   outline: none;
+   cursor: pointer;.
+}
 
-} 
+.button-1 {
+   color: #FFF;
+   background: none;
+   font-weight: 900;
+   margin: 0 20px;
+}
+
+.button-2 {
+   width: 170px;
+   color: #F4696F;
+   background: #FFF;
+   font-weight: 900;
+}
