@@ -4,7 +4,7 @@
 }
 
 body {
-   font-family: "Circular Std Bold",Helvetica,Arial,sans-serif;
+   font-family: 'Circular Std Bold',Helvetica,Arial,sans-serif;
    background: #222;
    font-weight: 300;
 }
@@ -75,4 +75,34 @@ nav button {
    color: #F4696F;
    background: #FFF;
    font-weight: 900;
+}
+
+div ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   padding: 10px;
+}
+
+#menu {
+   text-align: left;
+   margin-left: 100px;
+}
+
+div li {
+   display: inline-block;
+   margin-left: 65px;
+}
+
+div a {
+   color: #F4696F;
+   text-decoration: none;
+   text-align: center;
+   font-size: 14px;
+   font-weight: 550;
+}
+
+.nav-links {
+   background: #FFF;
+   width: auto;
 }
