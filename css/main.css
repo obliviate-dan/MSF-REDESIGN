@@ -1,108 +1,76 @@
 * {
-   padding: 0;
    margin: 0;
+   padding: 0;
 }
 
 body {
-   font-family: 'Circular Std Bold',Helvetica,Arial,sans-serif;
    background: #222;
-   font-weight: 300;
+   background-attachment: fixed;
 }
 
 .container {
-   width: 100%;
+   width: 75%;
    margin: 0 auto;
 }
 
-header {
+nav {
    background: #F4696F;
-   padding: 10px 0 20px;
 }
 
-header::after {
+nav::after {
    content: '';
    display: table;
    clear: both;
 }
 
-.logo {
-   float: left;
-   margin-left: 180px;
-   margin-right: 60px;
-}
-
-input {
-   outline: none;
-   height: 40px;
-   width: 380px;
-   border: 2px solid #FFF;
-   border-radius: 50px;
-   margin-right: 40px;
-   background-color: rgba(250, 184, 187, 0.1);
-   font-weight: 400;
-   font-size: 14px;
-   padding-left: 30px;
-   color: #FFF;
-}
-
-::placeholder {
-   color: #FFF;
-   font-weight: 400;
-}
-
-nav {
-   padding-top: 15px;
-}
-
-nav button {
-   height: 42px;
-   margin-left: 10px;
-   border: none;
-   border-radius: 50px;
-   outline: none;
-   cursor: pointer;.
-}
-
-.button-1 {
-   color: #FFF;
-   background: none;
-   font-weight: 900;
-   margin: 0 20px;
-}
-
-.button-2 {
-   width: 170px;
-   color: #F4696F;
-   background: #FFF;
-   font-weight: 900;
-}
-
-div ul {
+nav ul {
    margin: 0;
    padding: 0;
    list-style: none;
-   padding: 10px;
 }
 
-#menu {
-   text-align: left;
-   margin-left: 100px;
-}
-
-div li {
+nav li {
    display: inline-block;
-   margin-left: 65px;
+   margin-left: 40px;
 }
 
-div a {
-   color: #F4696F;
+nav a {
    text-decoration: none;
-   text-align: center;
    font-size: 14px;
-   font-weight: 550;
 }
 
-.nav-links {
-   background: #FFF;
-   width: auto;
+.white-navbar {
+   padding: 15px 0;
+   background-color: #FFF;
+}
+
+.navbar-center {
+   width: 75%;
+}
+
+.brand-logo {
+   margin: 10px 0;
+   width: 160px;
+   height: 60px;
+   background: url('../img/LOGO.png') no-repeat;
+   display: inline-block;
+   -webkit-background-size: contain;
+   background-size: contain;
+   color: transparent;
+   float: left;
+}
+
+.donation-buttons {
+   margin: 15px auto;
+   float: right;
+}
+
+.iam {
+   color: #FFF;
+}
+
+.capa {
+   display: table;
+   width: 100%;
+   height: 100%;
 }
