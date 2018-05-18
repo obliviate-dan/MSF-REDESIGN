@@ -5,6 +5,7 @@
 }
 
 body {
+   word-wrap: break-word;
    background: #222;
    background-attachment: fixed;
 }
@@ -42,7 +43,7 @@ nav a {
 
 .white-navbar {
    padding: 15px 0;
-   background-color: #FFF;
+   background-color: #FEF9F9;
 }
 
 .navbar-center {
@@ -75,13 +76,13 @@ nav a {
 }
 
 .iam {
-   color: #FFF;
+   color: #FEF9F9;
    font-weight: 500;
 }
 
 .active {
    color: #F4696F;
-   background: #fff;
+   background: #FEF9F9;
    height: 60px;
    line-height: 60px;
    font-size: 15px;
@@ -110,7 +111,7 @@ nav a {
 #i-need-help {
    width: 60%;
    padding-top: 100px;
-   color: #fff;
+   color: #FEF9F9;
 }
 
 #large-part {
@@ -135,7 +136,7 @@ nav a {
 .active2 {
    text-decoration: none;
    color: #F4696F;
-   background: #fff;
+   background: #FEF9F9;
    line-height: 55px;
    font-size: 15px;
    font-weight: 500;
@@ -144,7 +145,60 @@ nav a {
 }
 
 .active2:Hover {
-   color: #FFF;
+   color: #FEF9F9;
    background: #F4696F;
    transition: background 0.5s, color 0.5s;
+}
+
+section {
+   background: #FEF9F9;
+}
+
+.title {
+   font-weight: 400;
+   color: #fb4b63;
+}
+
+.subtitle {
+   font-size: 14px;
+}
+
+.article {
+   padding-top: 50px;   
+   width: 65%;
+   margin: 0 auto;
+}
+
+.view-blocos {
+   text-align: left;
+   clear: both;
+}
+
+.img-article {
+   margin: 15px 0;
+   border-radius: 12px;
+}
+
+.content {
+   margin-right: 20px;
+   display: inline-block;
+}
+
+.content a {
+   font-weight: 500;
+   font-size: 13px;
+   text-decoration: none;
+   color: #7f7d7d;
+   width: 185px;
+   display: table;
+}
+
+.content a:Hover {
+   font-weight: 600;
+   transition: background 0.5s, color 0.5s;
+}
+
+.subtitle {
+   color: #7f7d7d;
+   font-weight: 400;
 }
